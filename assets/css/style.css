@@ -3177,11 +3177,12 @@ p {
 /*===========================
         5.FEATURES css 
 ===========================*/
-.features-area {
+.features-area, #main-concepts {
     background-color: #f4f6f7;
 }
 
 .single-features {
+    border-radius: 15px;
     background-color: #fff;
     padding: 40px 20px;
 }
@@ -3251,6 +3252,10 @@ p {
 /*===========================
         6.ABOUT css 
 ===========================*/
+.about-area {
+    background-color: #f4f6f7;
+}
+
 .about-feature .about-feature-image img {
     width: 100%;
 }
@@ -3516,7 +3521,7 @@ p {
     -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     padding: 24px 20px 50px;
-    border-radius: 8px;
+    border-radius: 15px;
     position: relative;
     overflow: hidden;
     background-color: #fff;
@@ -4004,4 +4009,23 @@ p {
 /*# sourceMappingURL=style.css.map */
 .main-logo {
     max-height: 70px;
+}
+
+.links-list > li {
+    margin-bottom: 15px;
+}
+
+.vision-list {
+    list-style-type: lower-roman;
+    list-style-position: inside;
+}
+
+.vision-list > li {
+    margin-bottom: 3px;
+}
+
+.divider {
+    height: 5px;
+    background-color: #005ad5;
+    border-radius: 30px;
 }

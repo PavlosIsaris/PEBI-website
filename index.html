@@ -63,11 +63,14 @@
                                 <li class="nav-item active">
                                     <a class="page-scroll" href="#home">Home</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="page-scroll" href="#about">About</a>
+                                <li class="nav-item active">
+                                    <a class="page-scroll" href="#main-concepts">Main Concepts</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="page-scroll" href="#phase-2">Phase 2</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="page-scroll" href="#goals">Goals</a>
+                                    <a class="page-scroll" href="#about">Vision</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="page-scroll" href="#team">Team</a>
@@ -122,17 +125,223 @@
 
 <!--====== HEADER ONE PART ENDS ======-->
 
-<!--====== FEATRES PART START ======-->
+<section id="main-concepts">
+    <div class="container">
+        <div class="row mb-3">
+            <div class="col-lg-6 col-sm-11 mx-auto text-center">
+                <div class="about-feature mt-30">
+                    <div class="about-feature-content">
+                        <h2 class="feature-title mb-2">Main Concepts of EEG</h2>
+                    </div>
+                </div> <!-- about feature three -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-7 col-md-9 col-sm-11 mx-auto">
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                    1. Significance of EEG
+                                </button>
+                            </h5>
+                        </div>
 
-<section id="features" class="features-area pt-60 pb-100">
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                             data-parent="#accordion">
+                            <div class="card-body text-justify">
+                                EEG is the primary technology to study the brain and different brain dysfunctions in
+                                real-time.<br><b>Portable</b> and <b>low-cost</b> EEG equipment for monitoring neuronal
+                                dysfunctions can
+                                have significant <b>societal</b> and <b>economical</b> benefits since they allow remote
+                                supervision by
+                                the clinicians and self-administration (possibly assisted by a nurse) of a treatment at
+                                home avoiding hospitalization.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                    2. Challenges
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                             data-parent="#accordion">
+                            <div class="card-body text-justify">
+                                Even though the rapid progress in high-tech electronics has enabled wearable and compact
+                                EEG devices, the accompanying generic software does not fulfill the requirements for
+                                <b>accurate EEG source analysis.</b><br/><br/>
+                                The way to unlock the secrets of the brain (i.e. to visualize the electric brain
+                                activity) is to build a model that connects the <b>underlying brain activity</b> with
+                                the EEG
+                                recordings.<br/>Because generic models have been shown to be unreliable and can result
+                                in
+                                misleading interpretations or diagnosis, personalised modelling is of <b>high
+                                importance.</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                    3. Personalization in EEG source imaging (the skull concern!)
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                             data-parent="#accordion">
+                            <div class="card-body text-justify">
+                                Personalisation means constructing a model that includes the electrical tissue
+                                properties and the geometry of the person's head who undertakes the EEG
+                                measurements.<br/>
+                                Underestimation or overestimation of the tissue conductivities can have a detrimental
+                                effect on identifying and localizing accurately the brain activity.<br/><br/>
+                                Particularly, the skull is of primary concern since it acts as an insulating barrier
+                                between the
+                                recordings and neuronal activity.<br/>The <b>breakthrough character</b> of this project
+                                is to
+                                bridge the gap between the new <b>high-end neuro-monitoring devices</b> and <b>highly
+                                sophisticated device-embedded software</b> that allow the design of patient-tailored
+                                protocols for precise (focal) high spatial resolution imaging of the brain activity.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                    4. Electrical Impedance Tomography (EIT)
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                             data-parent="#accordion">
+                            <div class="card-body text-justify">
+                                EIT is a type of <b>non-invasive medical imaging</b> that, in principal, can be used to
+                                infer
+                                electric conductivity profiles of tissues.<br>
+                                For the EEG source imaging improvement, we proposed to embed an in-line estimation
+                                procedure of the tissue conductivities via electrical impedance tomography (EIT) in our
+                                EEG Source Imaging software.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                    5. Phase 1 funded by the ATTRACT consortium
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                             data-parent="#accordion">
+                            <div class="card-body text-justify">
+                                <a class="mb-2" target="_blank"
+                                   href="https://attract-eu.com/showroom/project/personalised-electrical-brain-imaging-pebi/"><i
+                                        class="lni lni-link mr-2"></i>ATTRACT consortium</a>
+                                <br>
+                                In this project <b>Phase 1</b>, we developed an <b>EIT-EEG imaging software</b> that
+                                first constructs
+                                a <b>high-resolution conductivity profile</b> of the head, particularly the skull, and
+                                then
+                                includes this information in the <b>EEG Source Imaging software.</b><br><br>
+                                Our <b>state-of-the-art algorithms</b> can recover scalp conductivity and a detailed
+                                locally varying skull
+                                conductivity profile of the head which subsequently improve the accuracy of the EEG
+                                source imaging estimates significantly when compared to using bulk tissue conductivities
+                                or ‘standard’ tissue conductivities from literature.<br>
+                                We have tested our algorithm in simulated environment.
+                                Current scientific reports:
+                                <ul class="links-list mt-3">
+                                    <li>
+                                        <a href="https://arxiv.org/abs/2002.00066" target="_blank"><i
+                                                class="lni lni-link mr-2"></i>Simultaneous Skull
+                                            Conductivity and Focal Source Imaging from EEG Recordings with the help of
+                                            Bayesian Uncertainty Modelling</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://arxiv.org/abs/2001.11830" target="_blank"><i
+                                                class="lni lni-link mr-2"></i>Electrical Impedance
+                                            Tomography with Box Constraint for Skull Conductivity Estimation</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://attract-eu.com/showroom/project/personalised-electrical-brain-imaging-pebi/"
+                                           target="_blank"><i class="lni lni-link mr-2"></i>Personalised
+                                            electrical brain imaging - ATTRACT Showroom</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingSix">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseSix" aria-expanded="false"
+                                        aria-controls="collapseSix">
+                                    6. Phase 2 <b>(next step)</b>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
+                             data-parent="#accordion">
+                            <div class="card-body text-justify">
+                                The main goals for the phase 2 of our project are to develop a <b>prototype with
+                                wearable
+                                electronics</b> that combine both <b>EIT</b> and <b>EEG</b> technology and incorporate
+                                our
+                                EIT-EEG software from
+                                Phase 1.
+                                <br/><br/>
+                                Moreover, we want to use <b>low cost</b> ways to capture the head geometry.
+                                The validation A set of experiments will be carried out using 3D human head phantoms.
+                                After successful testing, we’ll conduct the first pre-clinical human experiments in a
+                                controlled
+                                environment.
+                                <br>
+                                <div class="container mt-3">
+                                    <div class="row">
+                                        <div class="col-lg-10 col-md-12 col-sm-12 mx-auto">
+                                            <img class="w-100" src="assets/images/project-phases.png"
+                                                 alt="Project phases image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--====== FEATURES PART START ======-->
+
+<section id="features" class="features-area pt-5 pb-100">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-4 col-md-7 col-sm-9">
-                <div class="single-features text-center mt-40">
+                <div class="single-features text-center">
                     <img style="height: 100px;" class="shape" src="assets/images/brain.png" alt="Shape">
                     <div class="features-content">
                         <h4 class="features-title">Electric conductivities of the skull</h4>
-                        <p class="text">
+                        <p class="text text-justify">
                             <b>Goal 1.</b> Software that determines individual variations in the electric conductivities
                             of the
                             skull with the help of <b>Electrical Impedance Tomography (EIT)</b> imaging has been
@@ -142,11 +351,11 @@
                 </div> <!-- single features -->
             </div>
             <div class="col-lg-4 col-md-7 col-sm-9">
-                <div class="single-features text-center mt-40">
+                <div class="single-features text-center">
                     <img style="height: 100px" class="shape" src="assets/images/logo.png" alt="Shape">
                     <div class="features-content">
                         <h4 class="features-title">Personally tailored conductivity profiles</h4>
-                        <p class="text">
+                        <p class="text text-justify">
                             <b>Goal 2.</b> Software that takes personally tailored conductivity profiles and high
                             spatial-resolution promoting models as inputs for the <b>EEG brain imaging</b> has been
                             developed.
@@ -155,11 +364,11 @@
                 </div> <!-- single features -->
             </div>
             <div class="col-lg-4 col-md-7 col-sm-9">
-                <div class="single-features text-center mt-40">
+                <div class="single-features text-center">
                     <img style="height: 100px" class="shape" src="assets/images/light-bulb.png" alt="Shape">
                     <div class="features-content">
                         <h4 class="features-title mb-4">Testing & Future work<br></h4>
-                        <p class="text">
+                        <p class="text text-justify">
                             <b>Goal 3.</b> Testing of the multimodal EIT-EEG software is ongoing.
                             <br>
                             <br>
@@ -176,177 +385,251 @@
     </div> <!-- container -->
 </section>
 
-<!--====== FEATRES PART ENDS ======-->
+<!--====== FEATURES PART ENDS ======-->
 
-<!--====== ABOUT THREE PART START ======-->
+<!--====== Goals PART START ======-->
 
-<section id="about" class="about-area pt-70 pb-100">
+<section id="phase-2" class="pt-95 pb-75">
     <div class="container">
-        <div class="row mb-5">
-            <div class="col-lg-6 mx-auto">
-                <div class="about-feature mt-30">
-                    <div class="about-feature-image text-center">
-                        <img class="w-auto" style="height: 250px;" src="assets/images/brain-robot.png"
-                             alt="Brain robot">
-                    </div>
-                    <div class="about-feature-content">
-                        <h2 class="feature-title">About the Project</h2>
-                        <p class="text">We envision that <b>portable EEG-based devices</b> will enable remote &
-                            home-based
-                            brain <b>monitoring</b> and <b>communication</b> and become as common in personalised health
-                            tracking as
-                            smart watches.
-                        </p>
-                    </div>
-                </div> <!-- about feature three -->
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="section-title text-center pb-20">
+                    <h4 class="title">Phase 2 (next step)</h4>
+                    <p class="text text-justify">
+                        The main goals for the phase 2 of our project are to develop a <b>prototype with wearable
+                        electronics</b> that combine both <b>EIT</b> and <b>EEG</b> technology and incorporate our
+                        EIT-EEG software from
+                        Phase 1.
+                        <br/><br/>
+                        Moreover, we want to use <b>low cost</b> ways to capture the head geometry.
+                        The validation A set of experiments will be carried out using 3D human head phantoms.
+                        After successful testing, we’ll conduct the first pre-clinical human experiments in a controlled
+                        environment.
+                    </p>
+                </div> <!-- section title -->
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12 mx-auto">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-12 mb-4">
-                            <div class="about-feature-items d-sm-flex mt-30">
-                                <div class="feature-items-icon">
-                                    <img src="assets/images/industrial-robot.png" alt="Robot">
-                                </div>
-                                <div class="feature-items-content media-body">
-                                    <h5 class="items-title">How would your technology scale up to become an industrial
-                                        product/system?
-                                    </h5>
-                                    <p class="text">
-                                        We’ll design a <b>prototype device</b> and demonstrate that it works in a
-                                        laboratory setting. The next phase is to reduce the size of the device and
-                                        design a
-                                        <b>satisfying user-experience</b>.
-                                        <br><br>
-                                        The final phase is to manufacture a stand-alone <b>portable brain monitoring and
-                                        communication
-                                        device</b> that can be used remotely at home. We envision that this kind of
-                                        device
-                                        will have
-                                        multiple uses in <b>personalised healthcare</b> and <b>entertainment</b>.
-                                    </p>
-                                </div>
-                            </div> <!-- about feature items -->
-                        </div>
-                        <div class="col-lg-6 col-md-12 mb-4">
-                            <div class="about-feature-items d-sm-flex mt-30">
-                                <div class="feature-items-icon">
-                                    <img src="assets/images/cooperation.png" alt="Cooperation">
-                                </div>
-                                <div class="feature-items-content media-body">
-                                    <h5 class="items-title">With who you would need to partner for this to happen,
-                                        meaning
-                                        potentially enlarging your actual consortium?
-                                    </h5>
-                                    <p class="text">
-                                    <h6 class="mb-3">We would like to partner with:</h6>
-                                    <ul class="list-group">
-                                        <li class="list-group-item"><b>Electronics laboratories:</b> to build prototype
-                                            sensors and
-                                            a device that incorporates the
-                                            implemented software and to perform tests with 3D-printed human head
-                                            phantoms
-                                        </li>
-                                        <li class="list-group-item">
-                                            <b>Brain imaging institute:</b> to get better understanding and the know-how
-                                            on human
-                                            experiments, perform preliminary human tests with our instrument
-                                        </li>
-                                    </ul>
-                                    </p>
-                                </div>
-                            </div> <!-- about feature items -->
-                        </div>
-                        <div class="col-lg-6 col-md-12 mb-4">
-                            <div class="about-feature-items d-sm-flex mt-30">
-                                <div class="feature-items-icon">
-                                    <img src="assets/images/chemistry.png" alt="Science">
-                                </div>
-                                <div class="feature-items-content media-body">
-                                    <h5 class="items-title">What applications will you demonstrate with value for
-                                        science, industry
-                                        and society?
-                                    </h5>
-                                    <p class="text">
-                                        Our ultimate goal is to design a <b>high-resolution</b>, <b>portable</b> and <b>personalised</b>
-                                        electrical brain
-                                        imaging instrument with the help of <b>EEG</b> and <b>EIT</b> imaging.
-                                        <br><br>
-                                        This new instrument
-                                        will have
-                                        performance comparable to <b>high-end</b> imaging modalities (such as MRI) but
-                                        with
-                                        <b>much reduced
-                                            costs</b>, without bulky equipment and with much <b>higher
-                                        temporal-resolution.</b>
-                                    </p>
-                                </div>
-                            </div> <!-- about feature items -->
-                        </div>
-                        <div class="col-lg-6 col-md-12 mb-4">
-                            <div class="about-feature-items d-sm-flex mt-30">
-                                <div class="feature-items-icon">
-                                    <img src="assets/images/bank.png" alt="Invest">
-                                </div>
-                                <div class="feature-items-content media-body">
-                                    <h5 class="items-title">How would you plan to contact potential investors in your
-                                        technology if
-                                        you would consider it necessary?
-                                    </h5>
-                                    <p class="text">
-                                        We plan to contact <b>investors</b> by attending (medical and AI) technology
-                                        expos and
-                                        conferences
-                                        (e.g. Med-Tech Innovation Expo, SLUSH), and by joining online Angel Investment
-                                        Networks.
-                                        <br><br>
-                                        An alternative option is to be directly in contact with the existing <b>technology
-                                        leaders.</b>
-                                    </p>
-                                </div>
-                            </div> <!-- about feature items -->
-                        </div>
-                        <div class="col-lg-6 col-md-12 mb-4">
-                            <div class="about-feature-items d-sm-flex mt-30">
-                                <div class="feature-items-icon">
-                                    <img src="assets/images/robot.png" alt="Prototype">
-                                </div>
-                                <div class="feature-items-content media-body">
-                                    <h5 class="items-title">Would you count and/or apply for other complementary funding
-                                        source
-                                        private or public for helping you to go to market?
-                                    </h5>
-                                    <p class="text">
-                                        Yes, both will be considered when we have demonstrated our prototype device.
-                                    </p>
-                                </div>
-                            </div> <!-- about feature items -->
-                        </div>
-                    </div>
-                </div>
-            </div>
+        </div> <!-- row -->
+        <div class="row justify-content-center">
+            <div class="text-center">
+                <img style="max-height: 350px;" src="assets/images/project-phases.png" alt="Project phases image">
+            </div> <!-- header content -->
         </div> <!-- row -->
     </div> <!-- container -->
 </section>
 
-<!--====== ABOUT THREE PART ENDS ======-->
+<section id="divider">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-md-11 col-sm-12 mx-auto">
+                <div class="div w-100 divider"></div>
+            </div>
+        </div>
+    </div>
+</section>
 
-<!--====== Goals PART START ======-->
-
-<section id="goals" class="portfolio-area pt-95 pb-100">
+<section id="partnership" class="about-feature pt-30 pb-100">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="text-center">
-                <img style="max-height: 400px;" src="assets/images/project-phases.png" alt="Project phases image">
-            </div> <!-- header content -->
+            <div class="col-lg-6 about-feature-content">
+                <div class="section-title text-center pb-20">
+                    <h4 class="title mb-2">Partnership wanted!</h4>
+                    <div class="text-center">
+                        <img class="my-2" style="max-height: 150px;" src="assets/images/handshake.png" alt="Partnership">
+                    </div> <!-- header content -->
+                    <p class="text mb-3 text-left">We would be interesting in collaborating with <b>researchers/labs</b> that have:</p>
+                    <div class="text-justify">
+                        <p class="text mb-3">(i) expertise in <b>wearable technologies</b></p>
+                        <p class="text mb-4">(ii) experience in <b>clinical use</b> of standard <b>EEG</b> or <b>Electrical Impedance tomography (EIT)</b></p>
+                        <p class="text text-center">Are you interested?<br/><a class="mt-3 btn-lg btn btn-primary" href="#contact"><i class="lni lni-heart mr-3"></i>Contact us!</a></p>
+                    </div>
+                </div> <!-- section title -->
+            </div>
         </div> <!-- row -->
-
     </div> <!-- container -->
 </section>
 
 <!--====== Goals PART ENDS ======-->
+
+<!--====== ABOUT THREE PART START ======-->
+
+<section id="about" class="about-area pt-70 pb-100">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-9 col-md-10 col-sm-11 mx-auto">
+                <div class="row mb-5">
+                    <div class="col-lg-6 col-sm-11 mx-auto">
+                        <div class="about-feature mt-30">
+                            <div class="about-feature-image text-center">
+                                <img class="w-auto" style="height: 200px;" src="assets/images/brain-robot.png"
+                                     alt="Brain robot">
+                            </div>
+                            <div class="about-feature-content">
+                                <h2 class="feature-title mb-2 text-center">This is our <b>vision!</b></h2>
+                                <p class="text">We envision that <b>portable EEG-based devices</b> will enable remote &
+                                    home-based
+                                    brain <b>monitoring</b> and <b>communication</b> and become as common in personalised health
+                                    tracking as
+                                    smart watches.
+                                </p>
+                            </div>
+                        </div> <!-- about feature three -->
+                    </div>
+                </div>
+                <div class="row" style="background-color: white; border-radius: 15px;">
+                    <div class="col-12 mx-auto">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 mb-4">
+                                    <div class="about-feature-items d-sm-flex mt-30">
+                                        <div class="feature-items-icon">
+                                            <img src="assets/images/industrial-robot.png" alt="Robot">
+                                        </div>
+                                        <div class="feature-items-content media-body">
+                                            <h5 class="items-title">How would your technology scale up to become an industrial
+                                                product/system?
+                                            </h5>
+                                            <p class="text">
+                                                We’ll design a <b>prototype device</b> and demonstrate that it works in a
+                                                laboratory setting. The next phase is to reduce the size of the device and
+                                                design a
+                                                <b>satisfying user-experience</b>.
+                                                <br><br>
+                                                The final phase is to manufacture a stand-alone <b>portable brain monitoring and
+                                                communication
+                                                device</b> that can be used remotely at home. We envision that this kind of
+                                                device
+                                                will have
+                                                multiple uses in <b>personalised healthcare</b> and <b>entertainment</b>.
+                                            </p>
+                                        </div>
+                                    </div> <!-- about feature items -->
+                                </div>
+                                <div class="col-lg-6 col-md-12 mb-4">
+                                    <div class="about-feature-items d-sm-flex mt-30">
+                                        <div class="feature-items-icon">
+                                            <img src="assets/images/cooperation.png" alt="Cooperation">
+                                        </div>
+                                        <div class="feature-items-content media-body">
+                                            <h5 class="items-title">With who you would need to partner for this to happen,
+                                                meaning
+                                                potentially enlarging your actual consortium?
+                                            </h5>
+                                            <p class="text">
+                                            <h6 class="mb-3">We would like to partner with:</h6>
+                                            <ul class="list-group">
+                                                <li class="list-group-item"><b>Electronics laboratories:</b> to build prototype
+                                                    sensors and
+                                                    a device that incorporates the
+                                                    implemented software and to perform tests with 3D-printed human head
+                                                    phantoms
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <b>Brain imaging institute:</b> to get better understanding and the know-how
+                                                    on human
+                                                    experiments, perform preliminary human tests with our instrument
+                                                </li>
+                                            </ul>
+                                            </p>
+                                        </div>
+                                    </div> <!-- about feature items -->
+                                </div>
+                                <div class="col-lg-6 col-md-12 mb-4">
+                                    <div class="about-feature-items d-sm-flex mt-30">
+                                        <div class="feature-items-icon">
+                                            <img src="assets/images/chemistry.png" alt="Science">
+                                        </div>
+                                        <div class="feature-items-content media-body">
+                                            <h5 class="items-title">What applications will you demonstrate with value for
+                                                science, industry
+                                                and society?
+                                            </h5>
+                                            <p class="text">
+                                                Our ultimate goal is to design a <b>high-resolution</b>, <b>portable</b> and <b>personalised</b>
+                                                electrical brain
+                                                imaging instrument with the help of <b>EEG</b> and <b>EIT</b> imaging.
+                                                <br><br>
+                                                This new instrument
+                                                will have
+                                                performance comparable to <b>high-end</b> imaging modalities (such as MRI) but
+                                                with
+                                                <b>much reduced
+                                                    costs</b>, without bulky equipment and with much <b>higher
+                                                temporal-resolution.</b>
+                                            </p>
+                                        </div>
+                                    </div> <!-- about feature items -->
+                                </div>
+                                <div class="col-lg-6 col-md-12 mb-4">
+                                    <div class="about-feature-items d-sm-flex mt-30">
+                                        <div class="feature-items-icon">
+                                            <img src="assets/images/bank.png" alt="Invest">
+                                        </div>
+                                        <div class="feature-items-content media-body">
+                                            <h5 class="items-title">How would you plan to contact potential investors in your
+                                                technology if
+                                                you would consider it necessary?
+                                            </h5>
+                                            <p class="text">
+                                                We plan to contact <b>investors</b> by attending (medical and AI) technology
+                                                expos and
+                                                conferences
+                                                (e.g. Med-Tech Innovation Expo, SLUSH), and by joining online Angel Investment
+                                                Networks.
+                                                <br><br>
+                                                An alternative option is to be directly in contact with the existing <b>technology
+                                                leaders.</b>
+                                            </p>
+                                        </div>
+                                    </div> <!-- about feature items -->
+                                </div>
+                                <div class="col-lg-6 col-md-12 mb-4 mx-auto">
+                                    <div class="about-feature-items d-sm-flex mt-30">
+                                        <div class="feature-items-icon">
+                                            <img src="assets/images/robot.png" alt="Prototype">
+                                        </div>
+                                        <div class="feature-items-content media-body">
+                                            <h5 class="items-title">Would you count and/or apply for other complementary funding
+                                                source
+                                                private or public for helping you to go to market?
+                                            </h5>
+                                            <p class="text">
+                                                Yes, both will be considered when we have demonstrated our prototype device.
+                                            </p>
+                                        </div>
+                                    </div> <!-- about feature items -->
+                                </div>
+                                <div class="col-lg-6 col-md-12 mb-4 mx-auto">
+                                    <div class="about-feature-items d-sm-flex mt-30">
+                                        <div class="feature-items-icon">
+                                            <img src="assets/images/target.png" alt="Vision">
+                                        </div>
+                                        <div class="feature-items-content media-body">
+                                            <h5 class="items-title">What usage do you envision for the project?
+                                            </h5>
+                                            <div class="text">
+                                                <ul class="vision-list">
+                                                    <li>Improved EEG-based diagnostics, for example for epilepsy</li>
+                                                    <li>Improved Transcranial Current Stimulation (TCS) treatment of the brain</li>
+                                                    <li>Tool for studying neurofeedback</li>
+                                                    <li>Remote, personalised health monitoring and tracking</li>
+                                                    <li>Brain computer interfaces (BCI): both for medical purposes and for entertainment, e.g. gaming</li>
+                                                    <li>Brain-to-Brain (B2B) communication: communication directly with the primary signals of the brain</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div> <!-- about feature items -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- row -->
+            </div>
+        </div>
+
+    </div> <!-- container -->
+</section>
+
+<!--====== ABOUT THREE PART ENDS ======-->
 
 <!--====== TEAM START ======-->
 
